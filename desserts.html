@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Desserts — Saffron Kitchen</title>
+  <meta name="description" content="Easy desserts: chocolate mug cake, berry parfait, no-bake cheesecake cups, brownies, and honey yogurt bowls.">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="nav-inner">
+      <a class="brand" href="index.html">
+        <span class="brand-mark" aria-hidden="true"></span>
+        Saffron Kitchen
+      </a>
+      <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav-links" aria-label="Primary">
+        <a class="nav-link" href="index.html">Home</a>
+        <a class="nav-pill" href="appetizers.html">Appetizers</a>
+        <a class="nav-dot" href="Main-courses.html">Mains</a>
+        <a class="nav-link" href="drinks.html">Drinks</a>
+        <a class="nav-pill active" href="desserts.html">Desserts</a>
+        <a class="nav-cta" href="about.html">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+          <a href="index.html">Home</a>
+          <span>/</span>
+          <span>Desserts</span>
+        </nav>
+        <h1>Desserts</h1>
+        <p>Sweet finishes that don’t ask for a pastry degree — mug cakes, parfaits, and warm brownies.</p>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top: 0;">
+      <div class="container">
+        <div class="filter-bar">
+          <span class="filter-label">Filter</span>
+          <button type="button" class="filter-btn active" data-filter="all">All</button>
+          <button type="button" class="filter-btn" data-filter="quick">Quick</button>
+          <button type="button" class="filter-btn" data-filter="no-bake">No-bake</button>
+          <button type="button" class="filter-btn" data-filter="chocolate">Chocolate</button>
+          <button type="button" class="filter-btn" data-filter="fruit">Fruit</button>
+          <div class="search-wrap">
+            <label for="recipe-search" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);">Search recipes</label>
+            <input id="recipe-search" type="search" placeholder="Search desserts…" autocomplete="off">
+          </div>
+        </div>
+
+        <div class="recipe-grid">
+          <article class="recipe" data-tags="quick chocolate">
+            <div class="recipe-media">
+              <img src="https://images.unsplash.com/photo-1606313564200-e75d5e30476c?auto=format&fit=crop&w=800&q=80" alt="Chocolate mug cake">
+            </div>
+            <div class="recipe-body">
+              <div class="recipe-tags">
+                <span class="tag easy">Quick</span>
+                <span class="tag time">5 min</span>
+                <span class="tag">Chocolate</span>
+              </div>
+              <h3>Chocolate Mug Cake</h3>
+              <p>One mug, one minute in the microwave, warm cocoa in every bite.</p>
+              <div class="recipe-steps">
+                Whisk 4 tbsp flour, 3 tbsp sugar, 2 tbsp cocoa, a pinch of salt, 3 tbsp milk, 2 tbsp oil, and ¼ tsp vanilla in a mug. Microwave 60–90 seconds until just set.
+              </div>
+              <button type="button" class="recipe-toggle" aria-expanded="false">View method</button>
+            </div>
+          </article>
+
+          <article class="recipe" data-tags="quick no-bake fruit">
+            <div class="recipe-media">
+              <img src="https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&w=800&q=80" alt="Berry yogurt parfait">
+            </div>
+            <div class="recipe-body">
+              <div class="recipe-tags">
+                <span class="tag easy">Quick</span>
+                <span class="tag time">10 min</span>
+                <span class="tag">No-bake</span>
+              </div>
+              <h3>Berry Parfait</h3>
+              <p>Layers of yogurt, honey, crunchy granola, and fresh berries.</p>
+              <div class="recipe-steps">
+                Layer Greek yogurt, honey, granola, and mixed berries in a glass. Repeat once and finish with a drizzle of honey.
+              </div>
+              <button type="button" class="recipe-toggle" aria-expanded="false">View method</button>
+            </div>
+          </article>
+
+          <article class="recipe" data-tags="no-bake">
+            <div class="recipe-media">
+              <img src="https://images.unsplash.com/photo-1565958011703-44f9829ba187?auto=format&fit=crop&w=800&q=80" alt="Cheesecake dessert cups">
+            </div>
+            <div class="recipe-body">
+              <div class="recipe-tags">
+                <span class="tag time">20 min + chill</span>
+                <span class="tag">No-bake</span>
+              </div>
+              <h3>No-Bake Cheesecake Cups</h3>
+              <p>Crushed biscuits, whipped cream cheese filling, and fruit on top.</p>
+              <div class="recipe-steps">
+                Crush digestive biscuits with melted butter for a base. Whip cream cheese with powdered sugar and vanilla, fold in whipped cream, spoon into cups, chill, and top with berries.
+              </div>
+              <button type="button" class="recipe-toggle" aria-expanded="false">View method</button>
+            </div>
+          </article>
+
+          <article class="recipe" data-tags="chocolate">
+            <div class="recipe-media">
+              <img src="https://images.unsplash.com/photo-1607920591413-4ec007e70023?auto=format&fit=crop&w=800&q=80" alt="Fudgy brownies">
+            </div>
+            <div class="recipe-body">
+              <div class="recipe-tags">
+                <span class="tag time">35 min</span>
+                <span class="tag">Chocolate</span>
+              </div>
+              <h3>Fudgy Pan Brownies</h3>
+              <p>Crackly tops, dense middle, best slightly warm with a scoop of ice cream.</p>
+              <div class="recipe-steps">
+                Melt butter with chocolate, whisk in sugar, eggs, and vanilla, then fold in flour and cocoa. Bake at 350°F for 22–28 minutes until just set in the center.
+              </div>
+              <button type="button" class="recipe-toggle" aria-expanded="false">View method</button>
+            </div>
+          </article>
+
+          <article class="recipe" data-tags="quick no-bake fruit">
+            <div class="recipe-media">
+              <img src="https://images.unsplash.com/photo-1482049016688-2d3e1b311543?auto=format&fit=crop&w=800&q=80" alt="Honey yogurt bowl with fruit">
+            </div>
+            <div class="recipe-body">
+              <div class="recipe-tags">
+                <span class="tag easy">Quick</span>
+                <span class="tag time">5 min</span>
+                <span class="tag">Fruit</span>
+              </div>
+              <h3>Honey Yogurt Bowl</h3>
+              <p>Thick yogurt, runny honey, toasted nuts, and whatever fruit is ripe.</p>
+              <div class="recipe-steps">
+                Spoon thick yogurt into a bowl. Drizzle with honey, add sliced fruit, and finish with toasted almonds or pistachios.
+              </div>
+              <button type="button" class="recipe-toggle" aria-expanded="false">View method</button>
+            </div>
+          </article>
+        </div>
+
+        <p class="empty-state">No desserts match that filter. Try another tag or clear the search.</p>
+
+        <div class="cta-band reveal" style="margin-top: 3rem;">
+          <div>
+            <h2>Meet the kitchen</h2>
+            <p>How Saffron Kitchen cooks — and how to use this site.</p>
+          </div>
+          <a class="btn btn-primary" href="about.html">About us</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <p class="footer-brand">Saffron Kitchen</p>
+        <p>Recipes worth gathering for — from first sip to last spoonful.</p>
+      </div>
+      <div>
+        <h4>Menus</h4>
+        <a href="appetizers.html">Appetizers</a>
+        <a href="Main-courses.html">Main courses</a>
+        <a href="drinks.html">Drinks</a>
+        <a href="desserts.html">Desserts</a>
+      </div>
+      <div>
+        <h4>More</h4>
+        <a href="about.html">About</a>
+        <a href="index.html#browse">Browse all</a>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <span>Cook with curiosity.</span>
+      <span>Saffron Kitchen</span>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

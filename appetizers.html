@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Appetizers — Saffron Kitchen</title>
+  <meta name="description" content="Classic and easy appetizers: pigs in a blanket, caprese skewers, stuffed mushrooms, bruschetta, and more.">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="nav-inner">
+      <a class="brand" href="index.html">
+        <span class="brand-mark" aria-hidden="true"></span>
+        Saffron Kitchen
+      </a>
+      <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav-links" aria-label="Primary">
+        <a class="nav-link" href="index.html">Home</a>
+        <a class="nav-pill active" href="appetizers.html">Appetizers</a>
+        <a class="nav-dot" href="Main-courses.html">Mains</a>
+        <a class="nav-link" href="drinks.html">Drinks</a>
+        <a class="nav-pill" href="desserts.html">Desserts</a>
+        <a class="nav-cta" href="about.html">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+          <a href="index.html">Home</a>
+          <span>/</span>
+          <span>Appetizers</span>
+        </nav>
+        <h1>Appetizers</h1>
+        <p>Classic &amp; easy openers — skewers, toasts, and golden bites that disappear first.</p>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top: 0;">
+      <div class="container">
+        <div class="filter-bar">
+          <span class="filter-label">Filter</span>
+          <button type="button" class="filter-btn active" data-filter="all">All</button>
+          <button type="button" class="filter-btn" data-filter="easy">Easy</button>
+          <button type="button" class="filter-btn" data-filter="baked">Baked</button>
+          <button type="button" class="filter-btn" data-filter="fresh">No-cook</button>
+          <button type="button" class="filter-btn" data-filter="party">Party</button>
+          <div class="search-wrap">
+            <label class="visually-hidden" for="recipe-search" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);">Search recipes</label>
+            <input id="recipe-search" type="search" placeholder="Search bites…" autocomplete="off">
+          </div>
+        </div>
+
+        <div class="recipe-grid">
+          <article class="recipe" data-tags="easy baked party">
+            <div class="recipe-media">
+              <img src="https://images.unsplash.com/photo-1626700051175-6818013e1d4f?auto=format&fit=crop&w=800&q=80" alt="Golden pigs in a blanket">
+            </div>
+            <div class="recipe-body">
+              <div class="recipe-tags">
+                <span class="tag easy">Easy</span>
+                <span class="tag time">15 min</span>
+                <span class="tag">Baked</span>
+              </div>
+              <h3>Pigs in a Blanket</h3>
+              <p>Cocktail sausages wrapped in crescent dough and baked until golden.</p>
+              <div class="recipe-steps">
+                Wrap cocktail sausages in crescent roll dough. Bake at 375°F for 12–15 minutes until golden.
+              </div>
+              <button type="button" class="recipe-toggle" aria-expanded="false">View method</button>
+            </div>
+          </article>
+
+          <article class="recipe" data-tags="easy fresh party">
+            <div class="recipe-media">
+              <img src="https://images.unsplash.com/photo-1486297678162-eb2a19b0a32d?auto=format&fit=crop&w=800&q=80" alt="Caprese skewers with tomato and mozzarella">
+            </div>
+            <div class="recipe-body">
+              <div class="recipe-tags">
+                <span class="tag easy">Easy</span>
+                <span class="tag time">10 min</span>
+                <span class="tag">No-cook</span>
+              </div>
+              <h3>Caprese Skewers</h3>
+              <p>Cherry tomatoes, mozzarella, and basil with a balsamic finish.</p>
+              <div class="recipe-steps">
+                Thread cherry tomatoes, fresh mozzarella balls (bocconcini), and basil onto small skewers. Drizzle with balsamic glaze.
+              </div>
+              <button type="button" class="recipe-toggle" aria-expanded="false">View method</button>
+            </div>
+          </article>
+
+          <article class="recipe" data-tags="baked party">
+            <div class="recipe-media">
+              <img src="https://images.unsplash.com/photo-1625944230945-1b7dd3b949ab?auto=format&fit=crop&w=800&q=80" alt="Stuffed mushrooms on a plate">
+            </div>
+            <div class="recipe-body">
+              <div class="recipe-tags">
+                <span class="tag time">25 min</span>
+                <span class="tag">Baked</span>
+              </div>
+              <h3>Stuffed Mushrooms</h3>
+              <p>Caps filled with cream cheese, garlic, breadcrumbs, and parmesan.</p>
+              <div class="recipe-steps">
+                Remove stems and fill caps with cream cheese, garlic, breadcrumbs, and parmesan. Bake until tender and lightly browned.
+              </div>
+              <button type="button" class="recipe-toggle" aria-expanded="false">View method</button>
+            </div>
+          </article>
+
+          <article class="recipe" data-tags="easy fresh">
+            <div class="recipe-media">
+              <img src="https://images.unsplash.com/photo-1572695157366-5e585ab2b69f?auto=format&fit=crop&w=800&q=80" alt="Bruschetta topped with tomatoes">
+            </div>
+            <div class="recipe-body">
+              <div class="recipe-tags">
+                <span class="tag easy">Easy</span>
+                <span class="tag time">15 min</span>
+                <span class="tag">Fresh</span>
+              </div>
+              <h3>Bruschetta</h3>
+              <p>Garlic-rubbed toast topped with tomato, basil, and balsamic.</p>
+              <div class="recipe-steps">
+                Toast baguette slices, rub with garlic, and top with diced tomatoes, olive oil, basil, and balsamic vinegar.
+              </div>
+              <button type="button" class="recipe-toggle" aria-expanded="false">View method</button>
+            </div>
+          </article>
+
+          <article class="recipe" data-tags="easy party fresh">
+            <div class="recipe-media">
+              <img src="https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80" alt="Guacamole with chips">
+            </div>
+            <div class="recipe-body">
+              <div class="recipe-tags">
+                <span class="tag easy">Easy</span>
+                <span class="tag time">10 min</span>
+                <span class="tag">No-cook</span>
+              </div>
+              <h3>Quick Guacamole</h3>
+              <p>Ripe avocado mashed with lime, onion, cilantro, and a pinch of salt.</p>
+              <div class="recipe-steps">
+                Mash 2 ripe avocados with juice of 1 lime, minced red onion, chopped cilantro, salt, and optional jalapeño. Serve with tortilla chips.
+              </div>
+              <button type="button" class="recipe-toggle" aria-expanded="false">View method</button>
+            </div>
+          </article>
+
+          <article class="recipe" data-tags="baked easy party">
+            <div class="recipe-media">
+              <img src="https://images.unsplash.com/photo-1531749668029-2db88e4276c7?auto=format&fit=crop&w=800&q=80" alt="Spinach artichoke dip">
+            </div>
+            <div class="recipe-body">
+              <div class="recipe-tags">
+                <span class="tag easy">Easy</span>
+                <span class="tag time">30 min</span>
+                <span class="tag">Baked</span>
+              </div>
+              <h3>Spinach Artichoke Dip</h3>
+              <p>Creamy, cheesy, and built for a warm baguette or crackers.</p>
+              <div class="recipe-steps">
+                Mix chopped spinach, artichoke hearts, cream cheese, sour cream, garlic, and mozzarella. Bake at 375°F for 20–25 minutes until bubbly.
+              </div>
+              <button type="button" class="recipe-toggle" aria-expanded="false">View method</button>
+            </div>
+          </article>
+
+          <article class="recipe" data-tags="fresh party">
+            <div class="recipe-media">
+              <img src="https://images.unsplash.com/photo-1551248429-40975aa4de74?auto=format&fit=crop&w=800&q=80" alt="Deviled eggs">
+            </div>
+            <div class="recipe-body">
+              <div class="recipe-tags">
+                <span class="tag time">20 min</span>
+                <span class="tag">Party</span>
+              </div>
+              <h3>Classic Deviled Eggs</h3>
+              <p>Silky yolk filling with mustard, mayo, and a dusting of paprika.</p>
+              <div class="recipe-steps">
+                Halve hard-boiled eggs. Mash yolks with mayo, Dijon, salt, and pepper. Pipe back into whites and finish with paprika.
+              </div>
+              <button type="button" class="recipe-toggle" aria-expanded="false">View method</button>
+            </div>
+          </article>
+
+          <article class="recipe" data-tags="baked easy">
+            <div class="recipe-media">
+              <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=800&q=80" alt="Garlic bread slices">
+            </div>
+            <div class="recipe-body">
+              <div class="recipe-tags">
+                <span class="tag easy">Easy</span>
+                <span class="tag time">12 min</span>
+                <span class="tag">Baked</span>
+              </div>
+              <h3>Cheesy Garlic Bread</h3>
+              <p>Crisp edges, soft center, and plenty of melted cheese.</p>
+              <div class="recipe-steps">
+                Mix softened butter with minced garlic and parsley. Spread on baguette halves, top with mozzarella, and bake at 400°F until melted and golden.
+              </div>
+              <button type="button" class="recipe-toggle" aria-expanded="false">View method</button>
+            </div>
+          </article>
+        </div>
+
+        <p class="empty-state">No appetizers match that filter. Try another tag or clear the search.</p>
+
+        <div class="cta-band reveal" style="margin-top: 3rem;">
+          <div>
+            <h2>Ready for the main event?</h2>
+            <p>Move on to mains that still respect your weeknight clock.</p>
+          </div>
+          <a class="btn btn-primary" href="Main-courses.html">See main courses</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <p class="footer-brand">Saffron Kitchen</p>
+        <p>Recipes worth gathering for — from first sip to last spoonful.</p>
+      </div>
+      <div>
+        <h4>Menus</h4>
+        <a href="appetizers.html">Appetizers</a>
+        <a href="Main-courses.html">Main courses</a>
+        <a href="drinks.html">Drinks</a>
+        <a href="desserts.html">Desserts</a>
+      </div>
+      <div>
+        <h4>More</h4>
+        <a href="about.html">About</a>
+        <a href="index.html#browse">Browse all</a>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <span>Cook with curiosity.</span>
+      <span>Saffron Kitchen</span>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
